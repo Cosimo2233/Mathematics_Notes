@@ -1,0 +1,8 @@
+data-bin/
+model-bin/
+tmp-workspace/
+
+.venv/
+__pycache__/
+
+.env
