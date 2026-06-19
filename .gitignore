@@ -1,8 +1,63 @@
+# Local data and generated workspaces
 data-bin/
 model-bin/
 tmp-workspace/
+tmp/
+temp/
 
+# Local AI/editor agent state
+.agents/
+.claude/
+.codex/
+
+# Python
 .venv/
+venv/
+env/
 __pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
+# Environment and secrets
 .env
+.env.*
+!.env.example
+*.local
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Generated exports and build output
+dist/
+build/
+out/
+exports/
+*.zip
+*.7z
+*.rar
